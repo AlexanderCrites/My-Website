@@ -1,0 +1,91 @@
+/* CV */
+.cv-containter {
+  position: relative;
+  min-height: calc(100dvh - 6.75rem);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+  padding-bottom: 1rem;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: fit-content;
+  overflow: hidden;
+  padding: 0px 60px;
+}
+
+.cv-video {
+  height: 500px;
+}
+
+.about-me p {
+  width: auto;
+  margin: 1rem 16px;
+  white-space: normal;
+}
+
+.my-resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 50%;
+  gap: 1rem;
+  padding: 16px;
+}
+
+.resume-container  {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-h2 {
+  width: 100%;
+  padding-bottom: .5rem;
+}
+
+.resume-line {
+  width: 100%;
+  display: flex;
+  padding-bottom: .5rem;
+}
+
+.resume-line-left {
+  flex: 1;
+}
+
+.resume-line-left-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-line-left-list p {
+  padding-right: .3rem;
+}
+
+.resume-line-right {
+  padding-left: 1.5rem;
+  width: 5.5rem;
+}
+
+@media (max-width: 600px) {
+  .cv-containter {
+    padding-bottom: 5.75rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-me {
+  padding: 0px 0px;
+}
+}

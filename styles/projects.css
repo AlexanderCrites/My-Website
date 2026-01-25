@@ -1,0 +1,137 @@
+/* PROJECT 1 */
+.proj-1-title-container {
+  background: black;
+  position: relative;
+  margin-top: -100dvh;
+  width: 100%;
+  height: 350dvh;
+  display: flex;
+  justify-content: left;
+}
+
+.project-1-id {
+  margin-top: calc(250dvh * .2);
+  position: absolute;
+}
+
+.sticky-section-2 {
+  position: sticky;
+  top: 3.75rem;
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  background: firebrick;
+}
+
+/* PROJECT 2 */
+.main-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: calc(200dvh + 2rem);
+}
+
+.scalable-img {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  max-width: 100%;
+  height: calc(100dvh);
+  aspect-ratio: calc(16 / 9);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.body-container {
+  position: relative;
+  margin-top: calc(-100dvh - 2rem);
+  width: 100%;
+  height: 200dvh;
+  background: white;
+  border-radius: 1rem 1rem 0 0;
+  z-index: 101;
+}
+
+.body-container p {
+  margin: 0rem 16px 16px 16px;
+  padding-top: 2rem;
+  color: black;
+}
+
+.main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 499px) { 
+  .scalable-img {
+    height: auto;
+    min-height: calc(50dvh + 1rem);
+    width: 100%;
+    aspect-ratio: calc(16 / 9);
+  }
+
+  .body-container {
+    margin-top: calc(-150dvh - 2rem);
+  }
+}
+
+/* PROJECT 3 */
+.horizontal-scroll-section {
+  position: relative;
+  height: 400dvh;
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.image-track {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  will-change: transform;
+  min-width: 100%;
+  height: 100%;
+}
+
+.image-track img {
+  flex: 1;
+  object-fit: cover;
+}
+
+.moving-text-box, .moving-text-box-2, .moving-text-box-3 {
+  position: absolute;
+  top: 100dvh;
+  left: 48px;
+  max-height: 15rem;
+  width: 60%;
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.moving-text-box p, .moving-text-box-2 p, .moving-text-box-3 p {
+  margin: 16px;
+  color: black;
+}
+
+.moving-text-box-2 {
+  top: 200dvh;
+}
+
+.moving-text-box-3 {
+  top: 300dvh;
+}
