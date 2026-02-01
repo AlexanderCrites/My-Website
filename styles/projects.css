@@ -84,13 +84,13 @@
 /* PROJECT 3 */
 .horizontal-scroll-section {
   position: relative;
-  height: 400svh;
+  height: 400lvh;
 }
 
 .sticky-container {
   position: sticky;
   top: 0;
-  height: 100svh;
+  height: 100lvh;
   overflow: hidden;
 }
 
@@ -111,7 +111,7 @@
 
 .moving-text-box, .moving-text-box-2, .moving-text-box-3 {
   position: absolute;
-  top: 100svh;
+  top: 100lvh;
   left: 48px;
   max-height: 15rem;
   width: 60%;
@@ -129,9 +129,10 @@
 }
 
 .moving-text-box-2 {
-  top: 200svh;
+  top: 200lvh;
 }
 
 .moving-text-box-3 {
-  top: 300svh;
+  top: 300lvh;
+
 }
