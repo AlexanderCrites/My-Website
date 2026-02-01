@@ -71,7 +71,7 @@ p {
 .hero-container {
   position: relative;
   width: 100%;
-  height: 300svh;
+  height: 300lvh;
 }
 
 .hero-video-container {
@@ -85,7 +85,7 @@ p {
 
 #vid {
   width: 100%;
-  height: 100svh;
+  height: 100lvh;
   object-fit: cover;
 }
 
@@ -155,4 +155,5 @@ p {
 
 .coming-soon .photography-text {
   color: white;
+
 }
