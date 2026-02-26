@@ -1,0 +1,255 @@
+.project-3 {
+  width: 100%;
+  height: fit-content;
+}
+
+.sticky-img-container3 {
+  width: 100%;
+  height: calc((var(--vh) * 250) + 2rem);
+  margin-top: -150svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sticky-img3 {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: calc(var(--vh) * 100);
+  aspect-ratio: calc(16 / 9);
+  object-fit: cover;
+  z-index: 5;
+  opacity: 0;
+  will-change: opacity;
+  transform: translateZ(0);
+}
+
+.proj-3-body {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin-top: calc((var(--vh) * -100) - 2rem);
+  background: white;
+  border-radius: 1rem 1rem 0 0;
+  z-index: 6;
+}
+
+.proj-3-body .padding-16px {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.kraus-house {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kraus-house img {
+  max-height: 100svh;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.proj-3-body .exploded-iso {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.proj-3-body .exploded-iso img {
+  max-height: 100svh;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.proj-3-body .model-photo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.proj-3-body .model-photo img {
+  max-height: 100svh;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.proj-3-body .perspective-section {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  background: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.proj-3-body .perspective-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.proj-3-body .model-section {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  background: white;
+}
+
+.proj-3-body .model-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+  .horizontal-scroll-section-3 {
+  position: relative;
+  width: calc(100% + 32px);
+  left: 0px;
+  height: calc(var(--vh) * 300);
+}
+
+.horizontal-scroll-section-3 .sticky-container {
+  position: sticky;
+  top: 0;
+  height: calc(var(--vh) * 100);
+  overflow: hidden;
+}
+
+.horizontal-scroll-section-3 .image-track {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  will-change: transform;
+  min-width: 100%;
+  height: 100%;
+}
+
+.horizontal-scroll-section-3 .image-track img {
+  height: 90%;
+  object-fit: cover;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.horizontal-scroll-section-3 .moving-text-box, .moving-text-box-2, .moving-text-box-3 {
+  position: absolute;
+  top: 50svh;
+  left: 48px;
+  max-height: 15rem;
+  width: 60%;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.horizontal-scroll-section-3 .moving-text-box p, .moving-text-box-2 p, .moving-text-box-3 p {
+  margin: 16px;
+  color: black;
+}
+
+.horizontal-scroll-section-3 .moving-text-box-2 {
+  top: 150svh;
+}
+
+.horizontal-scroll-section-3 .moving-text-box-3 {
+  top: 250svh;
+}
+
+@media (max-width: 1000px) {
+.horizontal-scroll-section-3 {
+  position: relative;
+  width: calc(100% + 32px);
+  left: 0px;
+  height: calc(var(--vh) * 300);
+}
+
+.horizontal-scroll-section-3 .sticky-container {
+  position: sticky;
+  top: 0;
+  height: calc(var(--vh) * 100);
+  overflow: hidden;
+}
+
+.horizontal-scroll-section-3 .image-track {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  will-change: transform;
+  min-width: 100%;
+  height: 100%;
+}
+
+.horizontal-scroll-section-3 .image-track img {
+  height: 90%;
+  object-fit: cover;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.horizontal-scroll-section-3 .moving-text-box, .moving-text-box-2, .moving-text-box-3 {
+  position: absolute;
+  top: 50svh;
+  left: 48px;
+  max-height: 15rem;
+  width: 60%;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.horizontal-scroll-section-3 .moving-text-box p, .moving-text-box-2 p, .moving-text-box-3 p {
+  margin: 16px;
+  color: black;
+}
+
+.horizontal-scroll-section-3 .moving-text-box-2 {
+  top: 150svh;
+}
+
+.horizontal-scroll-section-3 .moving-text-box-3 {
+  top: 250svh;
+}
+}
